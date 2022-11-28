@@ -7,9 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
       - name: Set up Julia 1.5
-        uses: actions/setup-julia@v1
         with:
           julia-version: 1
           julia-arch: x64
